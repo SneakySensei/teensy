@@ -1,0 +1,22 @@
+{
+  "name": "teensy",
+  "version": "1.0.0",
+  "description": "A URL shortener made with MERN",
+  "main": "server.js",
+  "repository": "https://github.com/SneakySensei/teensy",
+  "author": "Snehil",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "nanoid": "^3.1.20"
+  }
+}
